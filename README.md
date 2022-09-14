@@ -8,6 +8,8 @@ vcflib vcfrandom | \
   sed 's/bill\tbill\tbill/id1\tid2\tid3/' > test.vcf
 ```
 
+After the initial creation of the `vcf`, some manual fiddeling with the file is required to adjust the sample names and to create some variation in the genotypes.
+
 Create allele counts
 
 ```
