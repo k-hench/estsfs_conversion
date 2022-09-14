@@ -1,0 +1,22 @@
+##fileformat=VCFv4.0
+##source=vcfrandom
+##reference=/d2/data/references/build_37/human_reference_v37.fa
+##phasing=none
+##INFO=<ID=NS,Number=1,Type=Integer,Description="Number of samples with data">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total read depth at the locus">
+##INFO=<ID=AC,Number=1,Type=Integer,Description="Total number of alternate alleles in called genotypes">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Estimated allele frequency in the range (0,1]">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality, the Phred-scaled marginal (or unconditional) probability of the called genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	id1	id2	id3
+one	1	.	G	C,C	100	.	DP=7	GT:DP	0/1:56	0/1:56	2/1:56
+one	2	.	A	G	100	.	DP=72	GT:DP	0/1:35	0/1:35	0/1:35
+one	3	.	T	C	100	.	DP=83	GT:DP	0/0:7	0/0:7	0/1:7
+one	4	.	A	G	100	.	DP=93	GT:DP	0/1:24	0/0:24	0/1:24
+one	5	.	A	G	100	.	DP=44	GT:DP	0/1:94	0/0:94	0/1:94
+one	6	.	G	A	100	.	DP=86	GT:DP	0/1:4	0/1:4	0/1:4
+one	7	.	A	C	100	.	DP=74	GT:DP	0/1:58	0/1:58	0/1:58
+one	8	.	C	G,T	100	.	DP=88	GT:DP	1/1:72	1/1:72	1/0:72
+one	9	.	T	C,G	100	.	DP=91	GT:DP	0/1:2	0/1:2	0/1:2
